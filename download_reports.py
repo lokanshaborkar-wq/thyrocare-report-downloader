@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from playwright.sync_api import sync_playwright
 
-EXCEL_FILE = "reports.xlsx"
+EXCEL_FILE = "TOYO Report links.xlsx"
 DOWNLOAD_DIR = "downloads"
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
